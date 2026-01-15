@@ -194,7 +194,7 @@
                     <!-- Approach Image Start -->
                     <div class="approach-image">
                         <figure class="image-anime reveal">
-                            <img src="{{asset('frontend/images/approach-image.jpg')}}" alt="">
+                            <img src="{{asset('frontend/images/kisinia.JPG')}}" alt="">
                         </figure>
                     </div>
                     <!-- Approach Image End -->
@@ -214,19 +214,15 @@
                         <div class="best-food-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">Seafood snacks</h3>
-                                <h2 class="text-anime-style-3" data-cursor="-opaque">Fried chicken & fries</h2>
+                                <h3 class="wow fadeInUp">Food snacks</h3>
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Fried food</h2>
                             </div>
                             <!-- Section Title End -->
 
-                            <!-- Best Food Button Start -->
-                            <div class="best-food-btn wow fadeInUp" data-wow-delay="0.2s">
-                                <a href="">shop now</a>
-                            </div>
-                            <!-- Best Food Button End -->
+                           
                         </div>
                         <div class="best-food-image">
-                            <img src="{{asset('frontend/images/best-food-img-1.png')}}" alt="">
+                            <img src="{{asset('frontend/images/hindi.JPG')}}" alt="">
                         </div>
                     </div>
                     <!-- Best Food Item End -->
@@ -238,19 +234,15 @@
                         <div class="best-food-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">Big sale! Offer</h3>
-                                <h2 class="text-anime-style-3" data-cursor="-opaque">Deliciou exotic seafood</h2>
+                                <h3 class="wow fadeInUp">Explore Beauty</h3>
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Deliciou food</h2>
                             </div>
                             <!-- Section Title End -->
 
-                             <!-- Best Food Button Start -->
-                             <div class="best-food-btn wow fadeInUp" data-wow-delay="0.2s">
-                                <a href="">shop now</a>
-                             </div>
-                             <!-- Best Food Button End -->
+                             
                         </div>
                         <div class="best-food-image">
-                            <img src="{{asset('frontend/images/best-food-img-2.png')}}" alt="">
+                            <img src="{{asset('frontend/images/food.JPG')}}" alt="">
                         </div>
                     </div>
                     <!-- Best Food Item End -->
@@ -269,7 +261,7 @@
                     <div class="test-tradition-image-box">
                         <div class="test-tradition-image">
                             <figure class="image-anime">
-                                <img src="{{asset('frontend/images/test-tradition-image.jpg')}}" alt="">
+                                <img src="{{asset('frontend/images/food.jpg')}}" alt="">
                             </figure>
                         </div>
 
@@ -345,7 +337,7 @@
     </div>
     <!-- Test Tradition Section End -->
 
-    <!-- Our Faqs Section Start -->
+      <!-- Our Faqs Section Start -->
     <div class="our-faqs bg-section">
         <div class="container">
             <div class="row">
@@ -356,13 +348,13 @@
                         <div class="faq-img-box-1">
                             <div class="faq-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="{{asset('frontend/images/faq-img-1.jpg')}}" alt="">
+                                    <img src="{{asset('frontend/images/tam.jpg')}}" alt="">
                                 </figure>
                             </div>
 
                             <div class="faq-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="{{asset('frontend/images/faq-img-2.jpg')}}" alt="">
+                                    <img src="{{asset('frontend/images/samaki.jpg')}}" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -372,7 +364,7 @@
                         <div class="faq-img-box-2">
                             <div class="faq-img-2">
                                 <figure class="image-anime">
-                                    <img src="{{asset('frontend/images/faq-img-3.jpg')}}" alt="">
+                                    <img src="{{asset('frontend/images/tamtam.jpg')}}" alt="">
                                 </figure>
                             </div>
 
@@ -390,7 +382,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">FAQs</h3>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Frequently asked question</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Got questions about our food or bookings? Find quick answers to make your Seabud visit seamless.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Got questions about our food or bookings? Find quick answers to make your Blackbase visit seamless.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -405,7 +397,7 @@
                                 </h2>
                                 <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>We're open every day from 12:00 PM to 11:00 PM, including weekends and holidays.we offer both home delivery and takeaway.</p>
+                                        <p>We're open every day from 08:00 AM to 05:00 AM, including weekends and holidays.we offer both home delivery and takeaway.</p>
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +412,7 @@
                                 </h2>
                                 <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>We're open every day from 12:00 PM to 11:00 PM, including weekends and holidays.we offer both home delivery and takeaway.</p>
+                                        <p>Ofcourse we do offer optimal delivery to our customers</p>
                                     </div>
                                 </div>
                             </div>
@@ -435,22 +427,7 @@
                                 </h2>
                                 <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>We're open every day from 12:00 PM to 11:00 PM, including weekends and holidays.we offer both home delivery and takeaway.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        Do you have vegetarian or vegan options?
-                                    </button>
-                                </h2>
-                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We're open every day from 12:00 PM to 11:00 PM, including weekends and holidays.we offer both home delivery and takeaway.</p>
+                                        <p>Feel free to walk in anytime at Blackbase</p>
                                     </div>
                                 </div>
                             </div>

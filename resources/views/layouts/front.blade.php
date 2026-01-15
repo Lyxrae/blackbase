@@ -13,7 +13,7 @@
     <title>Blackbase | Food & More</title>
 
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/favicon.png') }}"> 
+	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/blackbase_icon.PNG') }}"> 
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -79,8 +79,8 @@
                         <!-- Topbar Contact Information Start -->
                         <div class="topbar-contact-info">
                             <ul>
-                                <li><a href="tel:0762227707"><img src="{{asset('frontend/images/icon-phone-accent.svg')}}" alt=""><span>Phone: </span>0762 227 707</a></li>
-                                <li><a href="mailto:info@blackbase.co.tz"><img src="{{asset('frontend/images/icon-mail-accent.svg')}}" alt=""><span>Email: </span>info@blackbase.co.tz</a></li>
+                                <li><a href="tel:0762227707"><img src="{{asset('frontend/images/icon-phone-accent.SVG')}}" alt=""><span>Phone: </span>0762 227 707</a></li>
+                                <li><a href="mailto:info@blackbase.co.tz"><img src="{{asset('frontend/images/icon-mail-accent.SVG')}}" alt=""><span>Email: </span>info@blackbase.co.tz</a></li>
                             </ul>
                         </div>
                         <!-- Topbar Contact Information End -->
@@ -107,7 +107,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="{{asset('frontend/images/logo.png')}}" alt="Logo">
+						<img src="{{asset('frontend/images/logo.PNG')}}" alt="Logo">
 						
 					</a>
 					<!-- Logo End -->
@@ -154,7 +154,7 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="{{asset('frontend/images/logo.png')}}" alt="">
+                            <img src="{{asset('frontend/images/logo.PNG')}}" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
@@ -229,7 +229,7 @@
                             <form id="newslettersForm" action="#" method="POST">
                                 <div class="form-group">
                                     <input type="email" name="mail" class="form-control"  id="mail" placeholder="E-mail Address *" required>
-                                    <button type="submit" class="newsletter-btn"><img src="{{asset('frontend/images/arrow-accent.svg')}}" alt=""></button>
+                                    <button type="submit" class="newsletter-btn"><img src="{{asset('frontend/images/arrow-accent.SVG')}}" alt=""></button>
                                 </div>
                             </form>
                         </div>
@@ -244,7 +244,7 @@
                         <!-- Footer Top Button Start -->
                         <div class="footer-top-button">
                             <a href="#top">
-                                <img src="{{asset('frontend/images/arrow-white.svg')}}" alt="">
+                                <img src="{{asset('frontend/images/arrow-white.SVG')}}" alt="">
                             </a>
                         </div>
                         <!-- Footer Top Button End -->
@@ -257,12 +257,7 @@
 
                         <!-- Footer Menu Start -->
                         <div class="footer-menu">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Our Menu</a></li>
-                                <li><a href="">contact us</a></li>
-                            </ul>
+                            
                         </div>
                         <!-- Footer Menu End -->
                     </div>
@@ -318,7 +313,7 @@
 <!-- Main Custom js file -->
 <script src="{{ asset('frontend/js/function.js') }}"></script>
  <a href="https://wa.me/255762227707" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.png" alt="WhatsApp" width="40" height="40">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.PNG" alt="WhatsApp" width="40" height="40">
     </a>
 </body>
 

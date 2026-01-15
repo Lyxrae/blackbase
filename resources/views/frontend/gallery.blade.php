@@ -38,6 +38,8 @@
                 </div>
             </div>
               @endforeach
+
+              
         </div>
         <!-- gallery section end -->
     </div>
