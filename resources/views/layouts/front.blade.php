@@ -107,7 +107,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="{{asset('frontend/images/logo.PNG')}}" alt="Logo">
+						<img src="{{asset('frontend/images/blackbasell.png')}}" style="width: 120px" alt="Logo">
 						
 					</a>
 					<!-- Logo End -->
@@ -154,13 +154,13 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="{{asset('frontend/images/logo.PNG')}}" alt="">
+                            <img src="{{asset('frontend/images/footerlogo.PNG')}}" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We're here to flip the script on traditional baking. Think bold flavor combos</p>
+                            <p></p>
                         </div>
                         <!-- About Footer Content End -->
 
@@ -169,7 +169,6 @@
                             <h3>Follow On Socials:</h3>
                             <ul>
                                 <li><a href="mail: info@blackbase.co.tz"><i class="fa-solid fa-envelope"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/blackbasetz?igsh=bTZtbmx5ZGxkZ29h"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="https://www.facebook.com/profile.php?id=61582325535710"><i class="fa-brands fa-facebook-f"></i></a></li>
                             </ul>
@@ -199,10 +198,13 @@
                     <div class="footer-links">            
                         <!-- Footer Contact List Start -->
                         <div class="footer-contact-list">
-                            <!-- Footer Contact Item Start -->
+                           <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
                                 <h3>Our Location</h3>
-                                <p>Wazo Kontena. Madale, Dar Es Salaam</p>
+                                <p>P.O BOX 78982</p>
+                                <p>Wazo Kontena</p>
+                                <p>Madale</p>
+                                <p>Dar Es Salaam</p>
                             </div>
                             <!-- Footer Contact Item End -->
                             
@@ -210,7 +212,7 @@
                             <div class="footer-contact-item">
                                 <h3>Get In Touch</h3>
                                 <p><a href="mailto:info@blackbase.co.tz">info@blackbase.co.tz</a></p>
-                                <p><a href="tel:123456789">+255 762 227 707</a></p>
+                                <p><a href="tel:0658606707">+255 658 606 707</a></p>
                             </div>
                             <!-- Footer Contact Item End -->
                         </div>
@@ -313,7 +315,7 @@
 <!-- Main Custom js file -->
 <script src="{{ asset('frontend/js/function.js') }}"></script>
  <a href="https://wa.me/255762227707" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.PNG" alt="WhatsApp" width="40" height="40">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.png" alt="WhatsApp" width="40" height="40">
     </a>
 </body>
 

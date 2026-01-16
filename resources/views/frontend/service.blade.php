@@ -44,13 +44,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="">{{$service->name}}</a></h2>
+                                <h2><a href="{{ route('service.show', $service->slug) }}">{{$service->name}}</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="" class="readmore-btn">read more</a>
+                                <a href="{{ route('service.show', $service->slug) }}" class="readmore-btn">read more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>

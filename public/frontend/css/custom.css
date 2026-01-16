@@ -42,9 +42,18 @@
 /************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/
+.page-single-post {
+    padding-bottom: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+.page-gallery {
+    padding-top: 20px !important;
+    margin-top: 0 !important;
+}
 
 :root {
-    --primary-color: #111330;
+    --primary-color: #000;
     --secondary-color: #cee2ee;
     --text-color: #595a6f;
     --accent-color: #303030;
@@ -68,6 +77,15 @@ body {
     line-height: 1em;
     color: var(--text-color);
     background: var(--bg-color);
+}
+
+.header-sticky {
+    position: fixed !important;
+    top: 15px; /* try 10px–30px */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
 }
 
 ::-webkit-scrollbar-track {
@@ -2382,7 +2400,7 @@ header.main-header .header-sticky.active {
 
 .footer-logo img {
     width: 100%;
-    max-width: 175px;
+    max-width: 130px;
 }
 
 .about-footer-content p {

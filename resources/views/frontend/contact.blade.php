@@ -112,7 +112,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>Contact us</h3>
-                                <p><a href="tel:123456789">(+255)-762-227-707</a></p>
+                                 <p><a href="tel:0658606707">+255 658 606 707</a></p>
                                 
                             </div>
                         </div>
@@ -138,7 +138,10 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>Address</h3>
-                                <p>Wazo Kontena ,Madale, Dar Es Salaam</p>
+                                <p>P.O BOX 78982</p>
+                                <p>Wazo Kontena</p>
+                                <p>Madale</p>
+                                <p>Dar Es Salaam</p>
                             </div>
                         </div>
                         <!-- Contact Info Item End -->

@@ -17,6 +17,7 @@ Route::get('/gallery', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/menu', [FrontendController::class, 'menu'])->name('menu');
 Route::get('/service', [FrontendController::class, 'service'])->name('service');
+Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.show');
 Route::post('/contact/send', [MessageController::class, 'store'])->name('contact.send');
 
 Route::get('/dashboard', function () {

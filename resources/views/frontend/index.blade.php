@@ -67,6 +67,7 @@
 }
 
 </style>
+
 </head>
 <body>
 
@@ -79,10 +80,6 @@
                     <div class="col-md-9">
                         <!-- Topbar Contact Information Start -->
                         <div class="topbar-contact-info">
-                            <ul>
-                                <li><a href="tel:0762227707"><img src="{{asset('frontend/images/icon-phone-accent.SVG')}}" alt=""><span>Phone: </span>0762 227 707</a></li>
-                                <li><a href="mailto:info@blackbase.co.tz"><img src="{{asset('frontend/images/icon-mail-accent.SVG')}}" alt=""><span>Email: </span>info@blackbase.co.tz</a></li>
-                            </ul>
                         </div>
                         <!-- Topbar Contact Information End -->
                     </div>
@@ -91,9 +88,8 @@
                         <!-- Topbar Social Links Start -->
                         <div class="topbar-social-links">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                <li><a href="https://www.instagram.com/blackbasetz?igsh=bTZtbmx5ZGxkZ29h"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61582325535710"><i class="fa-brands fa-facebook-f"></i></a></li>
                             </ul>
                         </div>
                         <!-- Topbar Social Links End -->
@@ -108,7 +104,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="{{asset('frontend/images/logo.PNG')}}" alt="Logo">
+						<img src="{{asset('frontend/images/blackbasell.png')}}" style="width: 120px" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
@@ -124,13 +120,13 @@
                                 <li class="nav-item"><a class="nav-link" href="{{route('gallery')}}">Gallery</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="" href="{{route('contact')}}">Reserve A Table</a></li>
+                                
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="" class="btn-default">Reserve A Table</a>
+                            <a href="{{route('contact')}}" class="btn-default">Reserve A Table</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
@@ -527,13 +523,13 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="{{asset('frontend/images/logo.PNG')}}" alt="">
+                            <img src="{{asset('frontend/images/footerlogo.PNG')}}" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We're here to flip the script on traditional baking. Think bold flavor combos</p>
+                            <p></p>
                         </div>
                         <!-- About Footer Content End -->
 
@@ -542,7 +538,6 @@
                             <h3>Follow On Socials:</h3>
                             <ul>
                                 <li><a href="mail: info@blackbase.co.tz"><i class="fa-solid fa-envelope"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/blackbasetz?igsh=bTZtbmx5ZGxkZ29h"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="https://www.facebook.com/profile.php?id=61582325535710"><i class="fa-brands fa-facebook-f"></i></a></li>
                             </ul>
@@ -575,7 +570,10 @@
                             <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
                                 <h3>Our Location</h3>
-                                <p>Wazo Kontena. Madale, Dar Es Salaam</p>
+                                <p>P.O BOX 78982</p>
+                                <p>Wazo Kontena</p>
+                                <p>Madale</p>
+                                <p>Dar Es Salaam</p>
                             </div>
                             <!-- Footer Contact Item End -->
                             
@@ -583,7 +581,7 @@
                             <div class="footer-contact-item">
                                 <h3>Get In Touch</h3>
                                 <p><a href="mailto:info@blackbase.co.tz">info@blackbase.co.tz</a></p>
-                                <p><a href="tel:123456789">+255 762 227 707</a></p>
+                                <p><a href="tel:0658606707">+255 658 606 707</a></p>
                             </div>
                             <!-- Footer Contact Item End -->
                         </div>
@@ -599,10 +597,10 @@
                         <p>Subscribe our newsletter to get more updates.!</p>
                         <!-- Footer NewsLetter Form Start -->
                         <div class="footer-newsletter-form">
-                            <form id="newslettersForm" action="#" method="POST">
+                            <form id="newslettersForm" action="#" method="">
                                 <div class="form-group">
                                     <input type="email" name="mail" class="form-control"  id="mail" placeholder="E-mail Address *" required>
-                                    <button type="submit" class="newsletter-btn"><img src="{{asset('frontend/images/arrow-accent.SVG')}}" alt=""></button>
+                                    <button type="submit" class="newsletter-btn"><img src="{{asset('frontend/images/arrow-accent.svg')}}" alt=""></button>
                                 </div>
                             </form>
                         </div>
@@ -617,7 +615,7 @@
                         <!-- Footer Top Button Start -->
                         <div class="footer-top-button">
                             <a href="#top">
-                                <img src="{{asset('frontend/images/arrow-white.SVG')}}" alt="">
+                                <img src="{{asset('frontend/images/arrow-white.svg')}}" alt="">
                             </a>
                         </div>
                         <!-- Footer Top Button End -->
@@ -686,7 +684,7 @@
 <!-- Main Custom js file -->
 <script src="{{ asset('frontend/js/function.js') }}"></script>
  <a href="https://wa.me/255762227707" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.PNG" alt="WhatsApp" width="40" height="40">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.png" alt="WhatsApp" width="40" height="40">
     </a>
 </body>
 

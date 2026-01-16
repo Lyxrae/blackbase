@@ -44,7 +44,7 @@
                                         <td>{{ $menu->name }}</td>
                                         <td>{{ $menu->category->name }}</td>
                                         <td>{{ Str::limit($menu->description, 50) }}</td>
-                                        <td>${{ $menu->price }}</td>
+                                        <td>{{ $menu->price }}K</td>
                                         <td>{{ $menu->created_at->format('d M Y') }}</td>
                                         <td>
                                             <!-- Edit -->
